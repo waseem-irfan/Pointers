@@ -10,5 +10,10 @@ int main(void){
     printf("%d\n",*(*q));
     printf("%d\n",*(*r));
     printf("%d\n",*(*(*r)));
+    *** r = 10;
+    printf("%d\n",x);
+    **q = *p+10;
+    printf("%d\n",x);
+
     return 0;
 }
